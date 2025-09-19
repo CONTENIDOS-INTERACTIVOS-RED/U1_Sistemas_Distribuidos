@@ -29,7 +29,7 @@
             h2.mb-4(data-aos="flip-up") Concepto de consistencia en sistemas distribuidos 
             p.mb-4(data-aos="fade-right") En el PDF <b>Concepto de consistencia en sistemas distribuidos</b>, se abordan los distintos niveles de consistencia, su papel dentro del teorema CAP y los retos técnicos asociados a su mantenimiento. A través de ejemplos prácticos y estrategias como el uso de protocolos de consenso y sincronización, se ofrece una comprensión sólida sobre cómo lograr coherencia de datos en entornos distribuidos complejos.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -51,7 +51,7 @@
             h2.mb-4(data-aos="flip-up") Modelo CAP y sus implicaciones 
             p.mb-4(data-aos="fade-right") En el PDF <b>Modelo CAP y sus implicaciones</b>, se analiza este principio fundamental propuesto por Eric Brewer, que establece que un sistema distribuido no puede garantizar simultáneamente las tres propiedades. A través de una explicación clara de sus componentes, ejemplos prácticos y decisiones de diseño asociadas, se brinda al lector una comprensión profunda de cómo el Modelo CAP orienta la construcción de sistemas robustos y adaptables frente a las limitaciones inherentes de la comunicación en red.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_5.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -144,11 +144,11 @@
             h2.mb-4(data-aos="flip-up") Concepto de escalabilidad 
             p.mb-4(data-aos="fade-right") En el PDF <b>Concepto de escalabilidad</b>, se aborda este principio clave en el diseño de arquitecturas distribuidas, explorando las estrategias verticales y horizontales que permiten adaptar los sistemas al aumento de usuarios, datos o transacciones. A través de ejemplos reales y buenas prácticas, el documento proporciona una comprensión integral de cómo diseñar soluciones escalables que mantengan la calidad del servicio ante escenarios de alta demanda, asegurando así el éxito operativo y la sostenibilidad tecnológica.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_6.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Concepto de escalabilidad .
+                p <strong>Anexo. </strong> Concepto de escalabilidad.
     
           .col-lg-5.mb-3.mb-lg-0.order-1
             figure(data-aos="zoom-in")

@@ -218,7 +218,7 @@
             h2.mb-4(data-aos="flip-up") Comunicación en arquitecturas distribuidas 
             p.mb-4(data-aos="fade-right") En el PDF <b>Comunicación en arquitecturas distribuidas</b>, se analizan los mecanismos, modelos, protocolos y retos asociados a la transmisión de información entre componentes dispersos, asegurando la coherencia y disponibilidad de los servicios. Este contenido proporciona al lector una comprensión integral sobre cómo se coordinan las acciones en entornos distribuidos mediante estrategias síncronas y asíncronas, garantizando la eficiencia del sistema ante desafíos como la latencia, la seguridad y la consistencia de los datos.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -386,7 +386,7 @@
             h2.mb-4(data-aos="flip-up") Escalabilidad, tolerancia a fallos y seguridad 
             p.mb-4(data-aos="fade-right") En el PDF <b>Escalabilidad, tolerancia a fallos y seguridad</b>, se analizan estos tres pilares desde una perspectiva técnica y práctica, ilustrando cómo se integran en el diseño y operación de soluciones distribuidas. A través de casos reales y estrategias implementadas en entornos como la computación en la nube y los sistemas bancarios en línea, se ofrecen herramientas clave para construir sistemas robustos, resilientes y seguros.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
