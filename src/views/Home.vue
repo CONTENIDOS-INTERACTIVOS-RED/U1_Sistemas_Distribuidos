@@ -24,7 +24,7 @@
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
               p.descripcion.mb-4 Desde la evolución de las tecnologías de la información, los sistemas distribuidos se han convertido en una solución clave para atender las crecientes necesidades de procesamiento, escalabilidad y disponibilidad de servicios. Esta unidad proporciona una introducción fundamental al concepto de sistemas distribuidos, abordando sus características, beneficios y desafíos. Se explorarán los distintos tipos de arquitecturas utilizadas, como la arquitectura cliente-servidor y la arquitectura orientada a servicios, así como los principios de comunicación, sincronización y concurrencia que rigen su funcionamiento.
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p #[b Prepárate para comprender cómo los sistemas distribuidos transforman el mundo digital con eficiencia y escalabilidad.]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
